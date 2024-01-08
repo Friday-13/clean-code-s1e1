@@ -19,7 +19,8 @@
 }
 
 @media (max-width: 768px) {
-    .info { text-align: center;
+    .info { 
+      text-align: center;
   }
 }
 .all-tasks {
@@ -40,11 +41,13 @@
   margin: 0;
   padding: 0px;
 }
-.task, .section-header {
+.task, 
+.section-header {
   list-style: none;
 }
 
-.task__input, .button{
+.task__input, 
+.button {
   outline: none;
 }
 .button {
@@ -114,7 +117,7 @@
   font-size: 18px;
   width: 226px;
 }
-.task >    .task__input {
+.task > .task__input {
   width: 226px;
 }
 .task__delete > .task__delete-icon {
