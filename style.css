@@ -19,8 +19,8 @@
 }
 
 @media (max-width:768px) {
-.info { text-align: center;
-}
+    .info { text-align: center;
+  }
 }
 .all-tasks {
   display: block;
@@ -35,7 +35,7 @@
 }
 .task-row-wrapper {
   display: flex;
-  }
+}
 .task-category {
   margin:0;
   padding: 0px;
