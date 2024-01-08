@@ -28,6 +28,10 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.new-task {
+  margin: 16px 0;
+  padding: 0;
+}
 .task__label,
 .task__input {
   width: 56%;
@@ -89,7 +93,7 @@
 }
 
 /* New Task */
-.section-header[for="new-task"] {
+.new-task__header {
   display: block;
   margin: 0 0 20px;
 }
